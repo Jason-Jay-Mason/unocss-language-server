@@ -1,12 +1,12 @@
 import { createGenerator } from "@unocss/core";
 import { createAutocomplete, searchUsageBoundary } from "@unocss/autocomplete";
-import preserUno from "@unocss/preset-uno";
+import presetUno from "@unocss/preset-uno";
 import { loadConfig } from "@unocss/config";
 import { sourcePluginFactory, sourceObjectFields } from "unconfig/presets";
 import { CompletionItem } from "vscode-languageserver";
 
 const defaultConfig = {
-  presets: [preserUno()],
+  presets: [presetUno()],
   separators: []
 };
 
